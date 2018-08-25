@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/branco"
+    android:id="@+id/teste">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:scaleType="center"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/app_name"
+        android:text="Recuperar Senha"
+        android:gravity="center"
+        android:textColor="@color/branco"
+        android:textSize="20dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Matrícula:  "
+            android:layout_gravity="center"
+            android:textColor="@color/preto"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/esqueceu_matricula"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Informe sua mátricula"
+            android:background="@drawable/editbackground"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="CPF:            "
+            android:layout_gravity="center"
+            android:textColor="@color/preto"
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/esqueceu_cpf"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Informe seu CPF"
+            android:background="@drawable/editbackground"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Data de Nascimento"
+        android:id="@+id/botao_nascimento"
+        android:background="@color/branco"
+        android:onClick="BotaoNascimento"/>
+</LinearLayout>

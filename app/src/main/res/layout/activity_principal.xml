@@ -1,0 +1,132 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_portal"
+    >
+   <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp">
+
+        <!-- Imagem Título    -->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/portal_pmt"
+            />
+
+    </LinearLayout>
+    <!-- Layout principal (Toda a tela de botões)    -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        >
+
+        <LinearLayout
+            android:id="@+id/DashboardNewPost"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+
+            <!-- Botão Contracheque -->
+            <ImageButton
+                android:id="@+id/img_contracheque"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bt_contracheque"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/DashboardPostsList"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+            <!-- Botão Protocolo -->
+            <ImageButton
+                android:id="@+id/img_protocolo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bt_protocolo"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <!-- //////////////-->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        >
+        <LinearLayout
+            android:id="@+id/DashboardNewPos2t"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            >
+
+            <!-- Botão Notícias -->
+            <ImageButton
+                android:id="@+id/img_noticias"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/botao_noticias"
+                />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/DashboardPostsList2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            >
+            <!-- Botão Informações -->
+            <ImageButton
+                android:id="@+id/img_informacoes"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/informacoes"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+   </ScrollView>
+</LinearLayout>

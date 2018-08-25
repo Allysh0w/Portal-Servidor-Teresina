@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fundo_portal">
+
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/abc_floating_window_z"
+        android:layout_marginLeft="@dimen/abc_floating_window_z"
+        android:layout_marginRight="@dimen/abc_floating_window_z"
+        android:layout_marginTop="@dimen/abc_floating_window_z"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:src="@drawable/protocolo_web"
+
+       />
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="50dp"
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="Protocolo: "
+                android:layout_gravity="center"
+                android:textColor="@color/branco"/>
+            <EditText
+                android:background="@drawable/editbackground"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:inputType="number"
+                android:hint="Informe seu protocolo"
+                android:id="@+id/protocolo_protocolo"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:text="Senha:"
+                android:textColor="@color/branco"/>
+
+            <EditText
+                android:background="@drawable/editbackground"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:hint="Digite sua senha"
+                android:id="@+id/senhaprotocolo"
+                android:inputType="textPassword"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <Button
+            android:background="@drawable/bt_pesquisar"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:id="@+id/botaopesquisarprotocolo"
+            android:layout_marginBottom="10dp"/>
+
+
+    </LinearLayout>
+    </ScrollView>
