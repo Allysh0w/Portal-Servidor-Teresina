@@ -7,7 +7,7 @@ Portal Servidor Teresina
 
 ###### Screenshots:
 
-![Screenshot](screenshots/Pservidor_1.png | width=100)
+![Screenshot](screenshots/Pservidor_1.png){:height="50%" width="50%"}
 
 ![Screenshot](screenshots/PServidor_2.png)
 
