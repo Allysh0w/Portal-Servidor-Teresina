@@ -7,13 +7,14 @@ Portal Servidor Teresina
 
 ###### Screenshots:
 
-<img src="https://github.com/Javac7/Portal-Servidor-Teresina/blob/master/screenshots/Pservidor_1.png" width="50%">
+<img src="https://github.com/Javac7/Portal-Servidor-Teresina/blob/master/screenshots/Pservidor_1.png" width="30%">
 
-![Screenshot](screenshots/PServidor_2.png)
 
-![Screenshot](screenshots/Pservidor_3.png)
+<img src="https://github.com/Javac7/Portal-Servidor-Teresina/blob/master/screenshots/Pservidor_2.png" width="30%">
 
-![Screenshot](screenshots/Pservidor_4.png)
+<img src="https://github.com/Javac7/Portal-Servidor-Teresina/blob/master/screenshots/Pservidor_3.png" width="30%">
+
+<img src="https://github.com/Javac7/Portal-Servidor-Teresina/blob/master/screenshots/Pservidor_4.png" width="30%">
 
 
 
